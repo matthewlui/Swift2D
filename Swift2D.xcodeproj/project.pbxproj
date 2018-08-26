@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7936ED451A6178DC0050FFF0 /* Swift2D.h in Headers */ = {isa = PBXBuildFile; fileRef = 7936ED441A6178DC0050FFF0 /* Swift2D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7936ED4B1A6178DC0050FFF0 /* Swift2D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7936ED3F1A6178DC0050FFF0 /* Swift2D.framework */; };
+		7936ED521A6178DC0050FFF0 /* Swift2DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7936ED511A6178DC0050FFF0 /* Swift2DTests.swift */; };
+		7936ED5C1A6178ED0050FFF0 /* Swift2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7936ED5B1A6178ED0050FFF0 /* Swift2D.swift */; };
+		7936ED6F1A618C610050FFF0 /* Swift2D.swift in Headers */ = {isa = PBXBuildFile; fileRef = 7936ED5B1A6178ED0050FFF0 /* Swift2D.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7936ED4C1A6178DC0050FFF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7936ED361A6178DC0050FFF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7936ED3E1A6178DC0050FFF0;
+			remoteInfo = Swift2D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7936ED3F1A6178DC0050FFF0 /* Swift2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swift2D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7936ED431A6178DC0050FFF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7936ED441A6178DC0050FFF0 /* Swift2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift2D.h; sourceTree = "<group>"; };
+		7936ED4A1A6178DC0050FFF0 /* Swift2DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift2DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7936ED501A6178DC0050FFF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7936ED511A6178DC0050FFF0 /* Swift2DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2DTests.swift; sourceTree = "<group>"; };
+		7936ED5B1A6178ED0050FFF0 /* Swift2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift2D.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7936ED3B1A6178DC0050FFF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7936ED471A6178DC0050FFF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7936ED4B1A6178DC0050FFF0 /* Swift2D.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7936ED351A6178DC0050FFF0 = {
+			isa = PBXGroup;
+			children = (
+				7936ED411A6178DC0050FFF0 /* Swift2D */,
+				7936ED4E1A6178DC0050FFF0 /* Swift2DTests */,
+				7936ED401A6178DC0050FFF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7936ED401A6178DC0050FFF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7936ED3F1A6178DC0050FFF0 /* Swift2D.framework */,
+				7936ED4A1A6178DC0050FFF0 /* Swift2DTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7936ED411A6178DC0050FFF0 /* Swift2D */ = {
+			isa = PBXGroup;
+			children = (
+				7936ED441A6178DC0050FFF0 /* Swift2D.h */,
+				7936ED5B1A6178ED0050FFF0 /* Swift2D.swift */,
+				7936ED421A6178DC0050FFF0 /* Supporting Files */,
+			);
+			path = Swift2D;
+			sourceTree = "<group>";
+		};
+		7936ED421A6178DC0050FFF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7936ED431A6178DC0050FFF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7936ED4E1A6178DC0050FFF0 /* Swift2DTests */ = {
+			isa = PBXGroup;
+			children = (
+				7936ED511A6178DC0050FFF0 /* Swift2DTests.swift */,
+				7936ED4F1A6178DC0050FFF0 /* Supporting Files */,
+			);
+			path = Swift2DTests;
+			sourceTree = "<group>";
+		};
+		7936ED4F1A6178DC0050FFF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7936ED501A6178DC0050FFF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7936ED3C1A6178DC0050FFF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7936ED451A6178DC0050FFF0 /* Swift2D.h in Headers */,
+				7936ED6F1A618C610050FFF0 /* Swift2D.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7936ED3E1A6178DC0050FFF0 /* Swift2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7936ED551A6178DC0050FFF0 /* Build configuration list for PBXNativeTarget "Swift2D" */;
+			buildPhases = (
+				7936ED3A1A6178DC0050FFF0 /* Sources */,
+				7936ED3B1A6178DC0050FFF0 /* Frameworks */,
+				7936ED3C1A6178DC0050FFF0 /* Headers */,
+				7936ED3D1A6178DC0050FFF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift2D;
+			productName = Swift2D;
+			productReference = 7936ED3F1A6178DC0050FFF0 /* Swift2D.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7936ED491A6178DC0050FFF0 /* Swift2DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7936ED581A6178DC0050FFF0 /* Build configuration list for PBXNativeTarget "Swift2DTests" */;
+			buildPhases = (
+				7936ED461A6178DC0050FFF0 /* Sources */,
+				7936ED471A6178DC0050FFF0 /* Frameworks */,
+				7936ED481A6178DC0050FFF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7936ED4D1A6178DC0050FFF0 /* PBXTargetDependency */,
+			);
+			name = Swift2DTests;
+			productName = Swift2DTests;
+			productReference = 7936ED4A1A6178DC0050FFF0 /* Swift2DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7936ED361A6178DC0050FFF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = positivemistake;
+				TargetAttributes = {
+					7936ED3E1A6178DC0050FFF0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7936ED491A6178DC0050FFF0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 7936ED391A6178DC0050FFF0 /* Build configuration list for PBXProject "Swift2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7936ED351A6178DC0050FFF0;
+			productRefGroup = 7936ED401A6178DC0050FFF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7936ED3E1A6178DC0050FFF0 /* Swift2D */,
+				7936ED491A6178DC0050FFF0 /* Swift2DTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7936ED3D1A6178DC0050FFF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7936ED481A6178DC0050FFF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7936ED3A1A6178DC0050FFF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7936ED5C1A6178ED0050FFF0 /* Swift2D.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7936ED461A6178DC0050FFF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7936ED521A6178DC0050FFF0 /* Swift2DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7936ED4D1A6178DC0050FFF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7936ED3E1A6178DC0050FFF0 /* Swift2D */;
+			targetProxy = 7936ED4C1A6178DC0050FFF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7936ED531A6178DC0050FFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7936ED541A6178DC0050FFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7936ED561A6178DC0050FFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Swift2D/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		7936ED571A6178DC0050FFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Swift2D/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		7936ED591A6178DC0050FFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Swift2DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7936ED5A1A6178DC0050FFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Swift2DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7936ED391A6178DC0050FFF0 /* Build configuration list for PBXProject "Swift2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7936ED531A6178DC0050FFF0 /* Debug */,
+				7936ED541A6178DC0050FFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7936ED551A6178DC0050FFF0 /* Build configuration list for PBXNativeTarget "Swift2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7936ED561A6178DC0050FFF0 /* Debug */,
+				7936ED571A6178DC0050FFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7936ED581A6178DC0050FFF0 /* Build configuration list for PBXNativeTarget "Swift2DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7936ED591A6178DC0050FFF0 /* Debug */,
+				7936ED5A1A6178DC0050FFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7936ED361A6178DC0050FFF0 /* Project object */;
+}
